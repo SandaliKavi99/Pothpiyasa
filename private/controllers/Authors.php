@@ -80,7 +80,7 @@ class Authors extends Controller
                 
                 //get staffid from userid
                 $value = Auth::profileID();
-                $authorData['AddStaffID'] = get_staffid('UserID', $value);
+                //$authorData['AddStaffID'] = get_staffid('UserID', $value);
 
 
                 $author->insert($authorData);
